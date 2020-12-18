@@ -4,8 +4,8 @@ import json
 url="https://protobuf.stepiot.com/api/operate"
 
 data = {
-    'token': 'eyJhbGciOiJIUzI1NiJ9.eyJncm91cEJybiI6IjEzMzk0NTIzNzc3OTIwNTMyNDkifQ.P7z47ML6hWAZaYytvs-lVS-X0H_vaMdTrAGDOEU7ZAQ',
-    'action': 'turnOnLight'
+    'token': '填入token',
+    'action': '填入action'
 }
 ## headers中添加上content-type这个参数，指定为json格式
 headers = {'Content-Type': 'application/json'}
